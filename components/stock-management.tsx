@@ -761,9 +761,10 @@ Stock ID: SJ${String(Date.now()).slice(-6)}`)
                               size="sm"
                               className="border-red-600 text-red-400 hover:bg-red-600"
                               onClick={() => handleDeleteItem(item.id, item.name)}
-                          >
-                            <Trash2 className="h-4 w-4" />
-                          </Button>
+                            >
+                              <Trash2 className="h-4 w-4" />
+                            </Button>
+                          </div>
                         </div>
                       </CardContent>
                     </Card>
@@ -1646,5 +1647,5 @@ Stock ID: SJ${String(Date.now()).slice(-6)}`)
         </div>
       )}
     </div>
-  )\
+  )
 }
